@@ -22,7 +22,7 @@ import './ImageGrid.css'
 
 const ImageGrid = () => {
     return (
-        <div className='container mx-auto mt-5 mb-5'>
+        <div className='container d-flex justify-content-center mt-5 mb-5'>
             <div className="grid">
                 <img src={one} alt="" />
                 <img src={two} alt="" />
