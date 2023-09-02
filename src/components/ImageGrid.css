@@ -1,0 +1,24 @@
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+}
+.four{
+    grid-row:span 2;
+    height: 100%;
+}
+.eight{
+    grid-row:span 2;
+    grid-column: span 2;
+    height: 100%;
+    width: 100%;
+}
+.sixteen{
+    grid-row:span 2;
+    height:100%;
+}
+img{
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+}
