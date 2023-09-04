@@ -5,23 +5,77 @@
 }
 .four{
     grid-row:span 2;
+    
+}
+.four1{
     height: 100%;
 }
 .eight{
     grid-row:span 2;
     grid-column: span 2;
+   
+}
+.eight1{
     height: 100%;
     width: 100%;
 }
 .sixteen{
     grid-row:span 2;
-    height:100%;
+    
+}
+.sixteen1{
+    height: 100%;
 }
 img{
     width: 340px;
     height: 340px;
     border-radius: 10px;
 }
+.container1 {
+    position: relative;
+    width: 100%;
+  }
+  
+ 
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.7;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .container1:hover .overlay {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  h3{
+    margin-top: 50px;
+  }
+  h5{
+    margin-top:50px;
+  }
+  .icons{
+    margin-top: 50px;
+  }
 @media only screen and (max-width:576px){
     .grid{
        

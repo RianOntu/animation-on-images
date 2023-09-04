@@ -9,6 +9,14 @@ button{
 }
 button:hover{
     cursor:pointer;
+    color: white;
+    background-color: #24BFF2;
+    transition: 0.5s;
+}
+button:focus{
+  outline: none;
+  color: white;
+  background-color: #24BFF2;
 }
 #app { height: 100% }
 html,

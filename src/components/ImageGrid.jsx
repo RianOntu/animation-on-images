@@ -23,26 +23,237 @@ import './ImageGrid.css'
 const ImageGrid = () => {
     return (
         <div className='container d-flex justify-content-center mt-5 mb-5'>
-            <div className="grid">
-                <img src={one} alt="" />
-                <img src={two} alt="" />
-                <img src={three} alt="" />
-                <img className='four' src={four} alt="" />
-                <img src={five} alt="" />
-                <img src={six} alt="" />
-                <img src={seven} alt="" />
-                <img className='eight' src={eight} alt="" />
-                <img src={nine} alt="" />
-                <img src={ten} alt="" />
-                <img src={eleven} alt="" />
-                <img src={twelve} alt="" />
-                <img src={thirteen} alt="" />
-                <img src={fourteen} alt="" />
-                <img src={fifteen} alt="" />
-                <img className='sixteen' src={sixteen} alt="" />
-                <img src={seventeen} alt="" />
-                <img src={eighteen} alt="" />
-                <img src={nineteen} alt="" />
+            <div className="grid mb-5">
+            <div class="container1">
+            <img src={one} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={two} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={three} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1 four">
+            <img className='four1' src={four} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={five} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={six} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={seven} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1 eight">
+            <img className='eight1' src={eight} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={nine} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={ten} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={eleven} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={twelve} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={thirteen} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={fourteen} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={fifteen} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1 sixteen">
+            <img className='sixteen1' src={sixteen} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={seventeen} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={eighteen} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container1">
+            <img src={nineteen} alt="" />
+  <div class="overlay">
+    <div class="text">
+    <h3 className='text-center'>Silence is golden</h3>
+<h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
+<div className="d-flex justify-content-center icons">
+<i class="fa-brands fa-github mr-5"></i><i class="fa-solid fa-basketball mr-5"></i><i class="fab fa-medium"></i>
+</div>
+    </div>
+  </div>
+</div>
+                
+              
             </div>
         </div>
     );

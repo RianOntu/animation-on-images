@@ -42,7 +42,19 @@ const Menus=()=> {
         className="mySwiper"
       >
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Shake</button>
+        <button className='mr-5 ml-5'>Fade In</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Fade Out</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Swipe</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Slide</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Slide Over</button>
         </SwiperSlide>
         <SwiperSlide>
         <button className='mr-5 ml-5'>Zoom In</button>
@@ -51,10 +63,37 @@ const Menus=()=> {
         <button className='mr-5 ml-5'>Zoom Out</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Slide Over</button>
+        <button className='mr-5 ml-5'>Shake</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Slide</button>
+        <button className='mr-5 ml-5'>Sense 3D</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Trans</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Flip</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Flip In</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Flip Out</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Bubble</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Bounce In</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Bounce Out</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Flip Forward</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button className='mr-5 ml-5'>Flip Backward</button>
         </SwiperSlide>
       
       </Swiper>
