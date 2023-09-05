@@ -28,6 +28,7 @@ import SwipeStruct from './AnimationStructures/SwipeStruct';
 import SlideStruct from './AnimationStructures/SlideStruct';
 import SlideOverStruct from './AnimationStructures/SlideOverStruct';
 import ZoomOutStruct from './AnimationStructures/ZoomOutStruct';
+import ShakeStruct from './AnimationStructures/ShakeStruct';
 
 const ImageGrid = ({selectedEffect}) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -70,6 +71,11 @@ const ImageGrid = ({selectedEffect}) => {
               case "ZoomOut":
                 animationComponent=(
                   <ZoomOutStruct></ZoomOutStruct>
+                );
+                break;
+              case "Shake":
+                animationComponent=(
+                  <ShakeStruct></ShakeStruct>
                 )
 
 
