@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Menus></Menus>
-  <ImageGrid></ImageGrid>
+
     </>
   )
 }

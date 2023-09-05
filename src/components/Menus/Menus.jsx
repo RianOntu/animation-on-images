@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, {  useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -12,9 +12,15 @@ import './Menus.css';
 
 // import required modules
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
+import ImageGrid from '../ImageGrid';
 
 const Menus=()=> {
+  const [selectedEffect,setselectedEffect]=useState(null);
+  const electedEffect=(effect)=>{
+        setselectedEffect(effect)
+  }
   return (
+    <>
     <div className='container d-flex justify-content-center mt-5'>
       <Swiper
         slidesPerView={1}
@@ -42,10 +48,10 @@ const Menus=()=> {
         className="mySwiper"
       >
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Fade In</button>
+        <button onClick={()=>electedEffect('FadeIn')} className='mr-5 ml-5'>Fade In</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Fade Out</button>
+        <button onClick={()=>electedEffect('FadeOut')} className='mr-5 ml-5'>Fade Out</button>
         </SwiperSlide>
         <SwiperSlide>
         <button className='mr-5 ml-5'>Swipe</button>
@@ -57,7 +63,7 @@ const Menus=()=> {
         <button className='mr-5 ml-5'>Slide Over</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Zoom In</button>
+        <button onClick={()=>electedEffect('ZoomIn')} className='mr-5 ml-5'>Zoom In</button>
         </SwiperSlide>
         <SwiperSlide>
         <button className='mr-5 ml-5'>Zoom Out</button>
@@ -97,7 +103,10 @@ const Menus=()=> {
         </SwiperSlide>
       
       </Swiper>
+     
     </div>
+    <ImageGrid selectedEffect={selectedEffect} ></ImageGrid>
+    </>
   );
 }
 
