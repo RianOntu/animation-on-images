@@ -23,6 +23,7 @@ import FadeIn from './Animations/FadeIn';
 import FadeInStruct from './AnimationStructures/FadeInStruct';
 import ZoomIn from './Animations/ZoomIn';
 import ZoomInStruct from './AnimationStructures/ZoomInStruct';
+import FadeOutStruct from './AnimationStructures/FadeOutStruct';
 
 const ImageGrid = ({selectedEffect}) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -42,6 +43,9 @@ const ImageGrid = ({selectedEffect}) => {
                 );
                 break;
             case 'FadeOut':  
+            animationComponent=(
+              <FadeOutStruct isHovered={isHovered} setIsHovered={setIsHovered}></FadeOutStruct>
+            )
      
          }
     }
