@@ -1,0 +1,25 @@
+.glitter {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+  }
+  
+  .swipe:hover .glitter {
+    opacity: 1;
+    animation: glitter 2s infinite;
+  }
+  
+  @keyframes glitter {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

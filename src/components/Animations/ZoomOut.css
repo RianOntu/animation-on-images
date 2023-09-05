@@ -1,0 +1,23 @@
+.zoom-out-container {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    /* height:100%; */
+  }
+  
+  .zoom-out-container img{
+    transform-origin: 50% 50%;
+    transition: all 1s;
+    
+   
+  
+    
+  }
+  
+  .zoom-out-container:hover img{
+    
+    transform: scale(0.8);
+    
+    
+  }
+  

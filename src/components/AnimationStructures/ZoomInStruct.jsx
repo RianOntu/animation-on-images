@@ -22,7 +22,7 @@ import ZoomIn from '../Animations/ZoomIn';
 
 const ZoomInStruct = () => {
     return (
-        <div>
+        
              <>
                      
                   
@@ -347,7 +347,7 @@ const ZoomInStruct = () => {
              
              </div>
              </>
-        </div>
+        
     );
 };
 

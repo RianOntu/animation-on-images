@@ -54,19 +54,19 @@ const Menus=()=> {
         <button onClick={()=>electedEffect('FadeOut')} className='mr-5 ml-5'>Fade Out</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Swipe</button>
+        <button onClick={()=>electedEffect('Swipe')} className='mr-5 ml-5'>Swipe</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Slide</button>
+        <button onClick={()=>electedEffect('Slide')} className='mr-5 ml-5'>Slide</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Slide Over</button>
+        <button onClick={()=>electedEffect('SlideOver')} className='mr-5 ml-5'>Slide Over</button>
         </SwiperSlide>
         <SwiperSlide>
         <button onClick={()=>electedEffect('ZoomIn')} className='mr-5 ml-5'>Zoom In</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Zoom Out</button>
+        <button onClick={()=>electedEffect('ZoomOut')} className='mr-5 ml-5'>Zoom Out</button>
         </SwiperSlide>
         <SwiperSlide>
         <button className='mr-5 ml-5'>Shake</button>
