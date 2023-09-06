@@ -32,6 +32,7 @@ import ShakeStruct from './AnimationStructures/ShakeStruct';
 import Sense3DStruct from './AnimationStructures/Sense3DStruct';
 import TransStruct from './AnimationStructures/TransStruct';
 import FlipStruct from './AnimationStructures/FlipStruct';
+import FlipInStruct from './AnimationStructures/FlipInStruct';
 
 const ImageGrid = ({selectedEffect}) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -94,6 +95,11 @@ const ImageGrid = ({selectedEffect}) => {
               case "Flip":
                 animationComponent=(
                   <FlipStruct selectedEffect={selectedEffect}></FlipStruct>
+                );
+                break;
+              case "FlipIn":
+                animationComponent=(
+                  <FlipInStruct selectedEffect={selectedEffect}></FlipInStruct>
                 )  
 
 

@@ -81,7 +81,7 @@ const Menus=()=> {
         <button onClick={()=>electedEffect('Flip')} className='mr-5 ml-5'>Flip</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Flip In</button>
+        <button onClick={()=>electedEffect('FlipIn')} className='mr-5 ml-5'>Flip In</button>
         </SwiperSlide>
         <SwiperSlide>
         <button className='mr-5 ml-5'>Flip Out</button>

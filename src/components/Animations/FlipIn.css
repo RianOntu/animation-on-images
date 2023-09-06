@@ -1,40 +1,41 @@
-.Flip{
+.FlipIn{
     position: relative;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: stretch;
 }
+.FlipIn:hover img{
+    z-index:0;
 
-.Flip .flip-card-inner {
-    position: relative;
+}
+
+.FlipIn .overlay {
+    position: absolute;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform: rotateY(-180deg);
+    background-color: black;
+    opacity: 0;
   }
   
-  .Flip:hover .flip-card-inner {
-    transform: rotateY(180deg);
+  .FlipIn:hover .overlay {
+    transform: rotateY(0deg);
+    z-index:1;
+    opacity: 0.7;
   }
   
-  .Flip .flip-card-front, .Flip .overlay{
+  .FlipIn .flip-card-front, .FlipIn .overlay{
     /* position: absolute; */
+    
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+ 
   }
   
-  .Flip .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .Flip .overlay {
-    background-color: #4C5057;
-    color: white;
-    transform: rotateY(180deg);
-  }
+ 
