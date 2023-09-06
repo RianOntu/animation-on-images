@@ -34,6 +34,7 @@ import TransStruct from './AnimationStructures/TransStruct';
 import FlipStruct from './AnimationStructures/FlipStruct';
 import FlipInStruct from './AnimationStructures/FlipInStruct';
 import FlipOutStruct from './AnimationStructures/FlipOutStruct';
+import BubbleStruct from './AnimationStructures/BubbleStruct';
 
 const ImageGrid = ({selectedEffect}) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -106,6 +107,11 @@ const ImageGrid = ({selectedEffect}) => {
               case "FlipOut":
                 animationComponent=(
                   <FlipOutStruct selectedEffect={selectedEffect}></FlipOutStruct>
+                );
+                break;
+              case "Bubble":
+                animationComponent=(
+                  <BubbleStruct selectedEffect={selectedEffect}></BubbleStruct>
                 )  
 
 
