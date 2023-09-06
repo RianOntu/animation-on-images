@@ -72,7 +72,7 @@ const Menus=()=> {
         <button onClick={()=>electedEffect('Shake')} className='mr-5 ml-5'>Shake</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Sense 3D</button>
+        <button onClick={()=>electedEffect('Sense3D')}  className='mr-5 ml-5'>Sense 3D</button>
         </SwiperSlide>
         <SwiperSlide>
         <button className='mr-5 ml-5'>Trans</button>

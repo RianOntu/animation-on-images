@@ -29,6 +29,7 @@ import SlideStruct from './AnimationStructures/SlideStruct';
 import SlideOverStruct from './AnimationStructures/SlideOverStruct';
 import ZoomOutStruct from './AnimationStructures/ZoomOutStruct';
 import ShakeStruct from './AnimationStructures/ShakeStruct';
+import Sense3DStruct from './AnimationStructures/Sense3DStruct';
 
 const ImageGrid = ({selectedEffect}) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -76,6 +77,11 @@ const ImageGrid = ({selectedEffect}) => {
               case "Shake":
                 animationComponent=(
                   <ShakeStruct></ShakeStruct>
+                );
+                break;
+              case "Sense3D":
+                animationComponent=(
+                  <Sense3DStruct></Sense3DStruct>
                 )
 
 
