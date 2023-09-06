@@ -33,6 +33,7 @@ import Sense3DStruct from './AnimationStructures/Sense3DStruct';
 import TransStruct from './AnimationStructures/TransStruct';
 import FlipStruct from './AnimationStructures/FlipStruct';
 import FlipInStruct from './AnimationStructures/FlipInStruct';
+import FlipOutStruct from './AnimationStructures/FlipOutStruct';
 
 const ImageGrid = ({selectedEffect}) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -100,6 +101,11 @@ const ImageGrid = ({selectedEffect}) => {
               case "FlipIn":
                 animationComponent=(
                   <FlipInStruct selectedEffect={selectedEffect}></FlipInStruct>
+                );
+                break;
+              case "FlipOut":
+                animationComponent=(
+                  <FlipOutStruct selectedEffect={selectedEffect}></FlipOutStruct>
                 )  
 
 

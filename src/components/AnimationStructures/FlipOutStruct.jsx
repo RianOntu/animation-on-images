@@ -18,9 +18,9 @@ import sixteen from '../../assets/16.jpg'
 import seventeen from '../../assets/17.jpg'
 import eighteen from '../../assets/18.jpg'
 import nineteen from '../../assets/19.jpg'
-import '../Animations/Flip.css';
+import '../Animations/FlipOut.css';
 
-const FlipStruct = ({selectedEffect}) => {
+const FlipOutStruct = ({selectedEffect}) => {
     return (
         <>
                
@@ -410,4 +410,4 @@ const FlipStruct = ({selectedEffect}) => {
     );
 };
 
-export default FlipStruct;
+export default FlipOutStruct;
