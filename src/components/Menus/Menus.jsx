@@ -90,16 +90,16 @@ const Menus=()=> {
         <button onClick={()=>electedEffect('Bubble')} className='mr-5 ml-5'>Bubble</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Bounce In</button>
+        <button onClick={()=>electedEffect('BounceIn')} className='mr-5 ml-5'>Bounce In</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Bounce Out</button>
+        <button onClick={()=>electedEffect('BounceOut')} className='mr-5 ml-5'>Bounce Out</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Flip Forward</button>
+        <button onClick={()=>electedEffect('FlipForward')} className='mr-5 ml-5'>Flip Forward</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button className='mr-5 ml-5'>Flip Backward</button>
+        <button onClick={()=>electedEffect('FlipBackward')} className='mr-5 ml-5'>Flip Backward</button>
         </SwiperSlide>
       
       </Swiper>

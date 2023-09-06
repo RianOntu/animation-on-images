@@ -35,6 +35,10 @@ import FlipStruct from './AnimationStructures/FlipStruct';
 import FlipInStruct from './AnimationStructures/FlipInStruct';
 import FlipOutStruct from './AnimationStructures/FlipOutStruct';
 import BubbleStruct from './AnimationStructures/BubbleStruct';
+import BouncInStruct from './AnimationStructures/BouncInStruct';
+import BouncOutStruct from './AnimationStructures/BounceOutStruct';
+import FlipForwardStruct from './AnimationStructures/FlipForwardStruct';
+import FlipBackwardStruct from './AnimationStructures/FlipBackwardStruct';
 
 const ImageGrid = ({selectedEffect}) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -112,7 +116,27 @@ const ImageGrid = ({selectedEffect}) => {
               case "Bubble":
                 animationComponent=(
                   <BubbleStruct selectedEffect={selectedEffect}></BubbleStruct>
-                )  
+                );
+                break;
+              case "BounceIn":
+                animationComponent=(
+                  <BouncInStruct selectedEffect={selectedEffect}></BouncInStruct>
+                );
+                break;
+              case "BounceOut":
+                animationComponent=(
+                  <BouncOutStruct selectedEffect={selectedEffect}></BouncOutStruct>
+                );
+                break;
+              case "FlipForward":
+                animationComponent=(
+                  <FlipForwardStruct selectedEffect={selectedEffect}></FlipForwardStruct>
+                );
+                break;
+              case "FlipBackward":
+                animationComponent=(
+                  <FlipBackwardStruct selectedEffect={selectedEffect}></FlipBackwardStruct>
+                )
 
 
      

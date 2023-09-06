@@ -1,0 +1,40 @@
+.FlipForward{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.FlipForward .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.1s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .FlipForward:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .FlipForward .flip-card-front, .FlipForward .overlay{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .FlipForward .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .FlipForward .overlay {
+    background-color: #4C5057;
+    color: white;
+    transform: rotateY(180deg);
+  }

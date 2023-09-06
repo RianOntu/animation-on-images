@@ -18,9 +18,9 @@ import sixteen from '../../assets/16.jpg'
 import seventeen from '../../assets/17.jpg'
 import eighteen from '../../assets/18.jpg'
 import nineteen from '../../assets/19.jpg'
-import '../Animations/BounceIn.css';
+import '../Animations/BounceOut.css';
 
-const BouncInStruct = ({selectedEffect}) => {
+const BouncOutStruct = ({selectedEffect}) => {
     return (
         <>
                      
@@ -295,4 +295,4 @@ const BouncInStruct = ({selectedEffect}) => {
     );
 };
 
-export default BouncInStruct;
+export default BouncOutStruct;
