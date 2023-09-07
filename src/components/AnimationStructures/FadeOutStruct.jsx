@@ -18,17 +18,18 @@ import sixteen from '../../assets/16.jpg'
 import seventeen from '../../assets/17.jpg'
 import eighteen from '../../assets/18.jpg'
 import nineteen from '../../assets/19.jpg'
-import FadeOut from '../Animations/FadeOut';
 
-const FadeOutStruct = ({isHovered,setIsHovered}) => {
+import '../Animations/FadeOut.css';
+
+const FadeOutStruct = ({isHovered,setIsHovered,selectedEffect}) => {
     return (
         
             <>
                      
                   
-                     <div class="container1">
+                     <div class={`container1 ${selectedEffect}`}>
              <img src={one} alt="" />
-             <FadeOut isActive={isHovered}>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -39,11 +40,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={two} alt="" />
-             <FadeOut isActive={isHovered}>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -54,11 +55,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={three} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -69,11 +70,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1 four">
+             <div class={`container1 four ${selectedEffect}`}>
              <img className='four1' src={four} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -84,11 +85,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={five} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -99,11 +100,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={six} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -114,11 +115,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={seven} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -129,11 +130,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1 eight">
+             <div class={`container1 eight ${selectedEffect}`}>
              <img className='eight1' src={eight} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -144,11 +145,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={nine} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -159,11 +160,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={ten} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -174,11 +175,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={eleven} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -189,11 +190,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={twelve} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -204,11 +205,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={thirteen} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -219,11 +220,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={fourteen} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -234,11 +235,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={fifteen} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -249,11 +250,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1 sixteen">
+             <div class={`container1 sixteen ${selectedEffect}`}>
              <img className='sixteen1' src={sixteen} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -264,11 +265,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={seventeen} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -279,11 +280,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={eighteen} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -294,11 +295,11 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
-             <div class="container1">
+             <div class={`container1 ${selectedEffect}`}>
              <img src={nineteen} alt="" />
-             <FadeOut>
+             
              <div class="overlay" onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}>
              <div class="text">
@@ -309,7 +310,7 @@ const FadeOutStruct = ({isHovered,setIsHovered}) => {
              </div>
              </div>
              </div>
-             </FadeOut>
+             
              </div>
              </>
       

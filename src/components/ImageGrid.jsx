@@ -60,7 +60,7 @@ const ImageGrid = ({selectedEffect}) => {
                 break;
             case 'FadeOut':  
             animationComponent=(
-              <FadeOutStruct isHovered={isHovered} setIsHovered={setIsHovered}></FadeOutStruct>
+              <FadeOutStruct isHovered={isHovered} setIsHovered={setIsHovered} selectedEffect={selectedEffect}></FadeOutStruct>
             );
             break;
             case "Swipe":

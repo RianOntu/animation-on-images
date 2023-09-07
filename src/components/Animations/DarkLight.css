@@ -1,0 +1,44 @@
+.moon{
+    outline:none;
+    background-color: white;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    border: none!important;
+}
+.moon:hover{
+    color:#24BFF2;
+}
+.moon:hover{
+    background-color: white;
+}
+.sun{
+    outline:none;
+    background-color: black;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    color:white;
+}
+.sun:hover{
+    color:#24BFF2
+}
+.sun:hover{
+    background-color:black;
+}
+/* Define CSS variables for background colors */
+.dark-mode{
+    background-color: #1E1F20;
+}
+.dark_menu{
+    background-color: #111111;
+    color:white;
+}
+.dark_menu:hover{
+    color:white;
+    background-color:#24BFF2 ;
+}
+.dark_menu:focus{
+    color:white;
+    background-color:#24BFF2 ;
+}

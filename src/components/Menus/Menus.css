@@ -1,4 +1,4 @@
-button{
+.menu{
   border:none;
   padding:10px;
   width: 200px;
@@ -7,13 +7,13 @@ button{
   background-color: white;
 
 }
-button:hover{
+.menu:hover{
     cursor:pointer;
     color: white;
     background-color: #24BFF2;
     transition: 0.5s;
 }
-button:focus{
+.menu:focus{
   outline: none;
   color: white;
   background-color: #24BFF2;

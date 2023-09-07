@@ -18,16 +18,17 @@ import sixteen from '../../assets/16.jpg'
 import seventeen from '../../assets/17.jpg'
 import eighteen from '../../assets/18.jpg'
 import nineteen from '../../assets/19.jpg'
-import Swipe from '../Animations/Swipe';
+import '../Animations/Swipe.css';
 
-const SwipeStruct = () => {
+
+const SwipeStruct = ({selectedEffect}) => {
     return (
         <>
                      
                   
-        <div class="container1">
+        <div class={`container1 ${selectedEffect}`}>
 <img src={one} alt="" />
-<Swipe >
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -37,11 +38,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={two} alt="" />
-<Swipe >
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -51,11 +52,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={three} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -65,11 +66,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1 four">
+<div class={`container1 four ${selectedEffect}`}>
 <img className='four1' src={four} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -79,11 +80,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={five} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -93,11 +94,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={six} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -107,11 +108,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={seven} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -121,11 +122,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1 eight">
+<div class={`container1 eight ${selectedEffect}`}>
 <img className='eight1' src={eight} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -135,11 +136,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={nine} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -149,11 +150,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={ten} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -163,11 +164,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={eleven} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -177,11 +178,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={twelve} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -191,11 +192,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={thirteen} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -205,11 +206,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={fourteen} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -219,11 +220,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={fifteen} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -233,11 +234,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1 sixteen">
+<div class={`container1 sixteen ${selectedEffect}`}>
 <img className='sixteen1' src={sixteen} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -247,11 +248,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={seventeen} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -261,11 +262,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={eighteen} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -275,11 +276,11 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
-<div class="container1">
+<div class={`container1 ${selectedEffect}`}>
 <img src={nineteen} alt="" />
-<Swipe>
+
 <div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
@@ -289,7 +290,7 @@ const SwipeStruct = () => {
 </div>
 </div>
 </div>
-</Swipe>
+<div className="white_box"></div>
 </div>
 </>
     );

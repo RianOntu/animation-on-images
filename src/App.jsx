@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageGrid from './components/ImageGrid';
 import Menus from './components/Menus/Menus';
+import DarkLight from './components/Animations/DarkLight';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+    <DarkLight></DarkLight>
     <Menus></Menus>
 
     </>

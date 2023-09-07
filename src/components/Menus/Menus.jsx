@@ -48,61 +48,61 @@ const Menus=()=> {
         className="mySwiper"
       >
         <SwiperSlide>
-        <button onClick={()=>electedEffect('FadeIn')} className='mr-5 ml-5'>Fade In</button>
+        <button  onClick={()=>electedEffect('FadeIn')} className='menu mr-5 ml-5'>Fade In</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('FadeOut')} className='mr-5 ml-5'>Fade Out</button>
+        <button  onClick={()=>electedEffect('FadeOut')} className='menu mr-5 ml-5'>Fade Out</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('Swipe')} className='mr-5 ml-5'>Swipe</button>
+        <button  onClick={()=>electedEffect('Swipe')} className='menu mr-5 ml-5'>Swipe</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('Slide')} className='mr-5 ml-5'>Slide</button>
+        <button  onClick={()=>electedEffect('Slide')} className='menu mr-5 ml-5'>Slide</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('SlideOver')} className='mr-5 ml-5'>Slide Over</button>
+        <button  onClick={()=>electedEffect('SlideOver')} className='menu mr-5 ml-5'>Slide Over</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('ZoomIn')} className='mr-5 ml-5'>Zoom In</button>
+        <button  onClick={()=>electedEffect('ZoomIn')} className='menu mr-5 ml-5'>Zoom In</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('ZoomOut')} className='mr-5 ml-5'>Zoom Out</button>
+        <button  onClick={()=>electedEffect('ZoomOut')} className='menu mr-5 ml-5'>Zoom Out</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('Shake')} className='mr-5 ml-5'>Shake</button>
+        <button  onClick={()=>electedEffect('Shake')} className='menu mr-5 ml-5'>Shake</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('Sense3D')}  className='mr-5 ml-5'>Sense 3D</button>
+        <button  onClick={()=>electedEffect('Sense3D')}  className='menu mr-5 ml-5'>Sense 3D</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('Trans')} className='mr-5 ml-5'>Trans</button>
+        <button  onClick={()=>electedEffect('Trans')} className='menu mr-5 ml-5'>Trans</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('Flip')} className='mr-5 ml-5'>Flip</button>
+        <button  onClick={()=>electedEffect('Flip')} className='menu mr-5 ml-5'>Flip</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('FlipIn')} className='mr-5 ml-5'>Flip In</button>
+        <button  onClick={()=>electedEffect('FlipIn')} className='menu mr-5 ml-5'>Flip In</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('FlipOut')} className='mr-5 ml-5'>Flip Out</button>
+        <button  onClick={()=>electedEffect('FlipOut')} className='menu mr-5 ml-5'>Flip Out</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('Bubble')} className='mr-5 ml-5'>Bubble</button>
+        <button  onClick={()=>electedEffect('Bubble')} className='menu mr-5 ml-5'>Bubble</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('BounceIn')} className='mr-5 ml-5'>Bounce In</button>
+        <button  onClick={()=>electedEffect('BounceIn')} className='menu mr-5 ml-5'>Bounce In</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('BounceOut')} className='mr-5 ml-5'>Bounce Out</button>
+        <button  onClick={()=>electedEffect('BounceOut')} className='menu mr-5 ml-5'>Bounce Out</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('FlipForward')} className='mr-5 ml-5'>Flip Forward</button>
+        <button  onClick={()=>electedEffect('FlipForward')} className='menu mr-5 ml-5'>Flip Forward</button>
         </SwiperSlide>
         <SwiperSlide>
-        <button onClick={()=>electedEffect('FlipBackward')} className='mr-5 ml-5'>Flip Backward</button>
+        <button  onClick={()=>electedEffect('FlipBackward')} className='menu mr-5 ml-5'>Flip Backward</button>
         </SwiperSlide>
       
-      </Swiper>
+      </Swiper> 
      
     </div>
     <ImageGrid selectedEffect={selectedEffect} ></ImageGrid>
