@@ -39,6 +39,7 @@ import BouncInStruct from './AnimationStructures/BouncInStruct';
 import BouncOutStruct from './AnimationStructures/BounceOutStruct';
 import FlipForwardStruct from './AnimationStructures/FlipForwardStruct';
 import FlipBackwardStruct from './AnimationStructures/FlipBackwardStruct';
+import BlindsStruct from './AnimationStructures/BlindsStruct';
 
 const ImageGrid = ({selectedEffect}) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -136,7 +137,15 @@ const ImageGrid = ({selectedEffect}) => {
               case "FlipBackward":
                 animationComponent=(
                   <FlipBackwardStruct selectedEffect={selectedEffect}></FlipBackwardStruct>
-                )
+                );
+                break;
+              case "Blinds":
+                animationComponent=(
+                  <BlindsStruct selectedEffect={selectedEffect}></BlindsStruct>
+                );
+                break;
+              case "Blocks":
+                ani
 
 
      

@@ -101,6 +101,30 @@ const Menus=()=> {
         <SwiperSlide>
         <button  onClick={()=>electedEffect('FlipBackward')} className='menu mr-5 ml-5'>Flip Backward</button>
         </SwiperSlide>
+        <SwiperSlide>
+        <button  onClick={()=>electedEffect('Blinds')} className='menu mr-5 ml-5'>Blinds</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button  onClick={()=>electedEffect('Blocks')} className='menu mr-5 ml-5'>Blocks</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button  onClick={()=>electedEffect('Book')} className='menu mr-5 ml-5'>Book</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button  onClick={()=>electedEffect('Border')} className='menu mr-5 ml-5'>Border</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button  onClick={()=>electedEffect('Bounce')} className='menu mr-5 ml-5'>Bounce</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button  onClick={()=>electedEffect('Circle')} className='menu mr-5 ml-5'>Circle</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button  onClick={()=>electedEffect('Cube')} className='menu mr-5 ml-5'>Cube</button>
+        </SwiperSlide>
+        <SwiperSlide>
+        <button  onClick={()=>electedEffect('Fade')} className='menu mr-5 ml-5'>Fade</button>
+        </SwiperSlide>
       
       </Swiper> 
      
