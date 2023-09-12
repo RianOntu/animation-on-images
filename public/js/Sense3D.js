@@ -3,7 +3,7 @@
 // Wrap your code in an event listener for when the DOM is ready
 document.addEventListener('DOMContentLoaded', function () {
   // Get all elements with class 'container1'
-  const elements = document.getElementsByClassName('container1');
+  const elements = document.getElementsByClassName('Sense3D');
 
   // Loop through each element and add event listeners
   for (let i = 0; i < elements.length; i++) {

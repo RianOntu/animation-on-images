@@ -25,12 +25,10 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
         <>
                      
                   
-        <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <div class={`container1 ${selectedEffect}`}>
 <img src={one} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -39,14 +37,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={two} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -55,14 +51,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={three} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -71,14 +65,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
 <div class="container1 four">
 <img className='four1' src={four} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -87,14 +79,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={five} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -103,14 +93,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={six} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -119,14 +107,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={seven} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -135,14 +121,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
 <div class="container1 eight">
 <img className='eight1' src={eight} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -151,14 +135,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={nine} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -167,14 +149,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={ten} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -183,14 +163,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={eleven} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -199,14 +177,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={twelve} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -215,14 +191,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={thirteen} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -231,14 +205,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={fourteen} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -247,14 +219,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={fifteen} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -263,14 +233,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
 <div class="container1 sixteen">
 <img className='sixteen1' src={sixteen} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -279,14 +247,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={seventeen} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -295,14 +261,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={eighteen} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -311,14 +275,12 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
- <div class={`container1 ${selectedEffect}`}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+ <div class={`container1 ${selectedEffect}`}>
 <img src={nineteen} alt="" />
-<FadeIn>
-<div class={`overlay ${isHovered ? 'hovered' : 'not-hovered'} ${
-          selectedEffect === 'FadeIn' ? 'fade-in-effect' : 'slide-effect'
-        }`}>
+
+<div class="overlay">
 <div class="text">
 <h3 className='text-center'>Silence is golden</h3>
 <h5 className='text-center'>Lorem ipsum dolor sit, amet <br /> consectetur adipisicing elit. Sint <br /> inventore debitis sequi.</h5>
@@ -327,7 +289,7 @@ const FadeInStruct = ({isHovered,setIsHovered,selectedEffect}) => {
 </div>
 </div>
 </div>
-</FadeIn>
+
 </div>
 </>
 

@@ -1,0 +1,65 @@
+
+
+.Blocks {
+    position: relative;
+    
+}
+
+.Blocks .overlay-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1;
+}
+.Blocks .overlay-container {
+   
+    opacity: 0;
+    transition: 2s ease;
+    
+  }
+  .Blocks:hover .overlay-container{
+    opacity:1;
+  }
+.Blocks .overlay {
+    width: 50%; /* Each overlay takes 25% width of the container */
+    height: 25%; /* Each overlay takes 25% height of the container */
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    transform-origin: right bottom; /* Set the transform origin to right bottom */
+}
+
+.Blocks .overlay-top-left {
+    top: 50%;
+    right: 50%;
+    transform: rotate(-45deg) scaleX(0); /* Rotate and scale the overlay initially */
+}
+
+.Blocks .overlay-top-right {
+    top: 50%;
+    left: 50%;
+    transform: rotate(-45deg) scaleX(0); /* Rotate and scale the overlay initially */
+}
+
+.Blocks .overlay-bottom-left {
+    bottom: 50%;
+    left: 50%;
+    transform: rotate(-45deg) scaleX(0); /* Rotate and scale the overlay initially */
+}
+
+.Blocks .overlay-bottom-right {
+    bottom:0;
+    right: 0;
+    transform: rotate(-45deg) scaleX(0); /* Rotate and scale the overlay initially */
+}
+
+.Blocks:hover .overlay-top-left,
+.Blocks:hover .overlay-top-right,
+.Blocks:hover .overlay-bottom-left,
+.Blocks:hover .overlay-bottom-right {
+    transform: rotate(0) scaleX(1); /* Rotate back to 0 degrees and scale to 1 on hover */
+}
